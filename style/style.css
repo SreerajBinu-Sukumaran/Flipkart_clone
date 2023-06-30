@@ -237,9 +237,16 @@ body{
     box-sizing:border-box; 
 }
 .mobile-third-section-content{
+    display:flex;
+}
+.mobile-third-section-image-container{
     overflow-x:hidden;
     width:125px;
     height:133.3333333333334px;
+}
+.mobile-third-section-image-container img{
+    width:100%;
+    height:100%;
 }
 .mobile-fourth-container{
     display:flex;
@@ -336,6 +343,7 @@ body{
     flex-direction:row;
     flex:1 1 0%;
     margin-bottom:8px;
+    justify-content: space-between;
 }
 .mobile-sixth-card{overflow-x:hidden;
     display:flex;
@@ -410,7 +418,11 @@ body{
 .mobile-nine-image-container{
     display:flex;
     flex-direction:column;
-    
+    width:187px;
+}
+.mobile-ten-container{
+    display:flex;
+    direction:column;
 }
 
 .mobile-ten-images-container{
@@ -419,10 +431,12 @@ body{
     align-items:stretch;
     margin:0px;
     padding:0px;
+    justify-content: space-between;
 }
 .mobile-ten-image-container{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
+    width:187px;
 }
 
 @media screen and (min-width:768px){
